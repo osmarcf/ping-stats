@@ -2,6 +2,7 @@
 
 Python script to send ICMP requests to hosts using the network interfaces defined.
 It uses Python 2.7.9 because it runs on an Orange Pi and I didn't want to upgrade the Python version.
+I use this script to measure my home internet quality and generate a daily report.
 
 This script loops two arrays: hosts and network interfaces. Then it open a OS process to send a ping command.
 The response from this command forms a few data (response time duration and its time measurement unit).
